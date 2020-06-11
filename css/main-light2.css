@@ -1,0 +1,28 @@
+
+body.light2 .side-item {
+    background: #E5B700;
+    color: black;
+}
+
+
+body.light2.centered-content .background-left {
+    background: #E5B700;
+}
+
+body.light2 #header #header-logo {
+    background: darkred;
+}
+
+body.light2 .side-item a {
+    color: black;
+}
+
+body.light2 .menu-item-selected {
+    color: darkred !important;
+    border-right-color: darkred;
+}
+
+body.light2 .menu-item-selected .menu-item-progress-slow, body.light2 .menu-item-active .menu-item-progress-slow,
+body.light2 .menu-item-selected .menu-item-progress-fast, body.light2 .menu-item-active .menu-item-progress-fast {
+    background: darkred;
+}

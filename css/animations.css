@@ -1,0 +1,59 @@
+.anim-entrance-up {
+    animation: entrance-up .3s ease-out forwards;
+}
+
+.anim-entrance-left {
+    animation: entrance-left .3s ease-out forwards;
+}
+
+.anim-entrance-right {
+    animation: entrance-right .3s ease-out forwards;
+}
+
+.anim-entrance-down {
+    animation: entrance-down .3s ease-out forwards;
+}
+
+@keyframes entrance-up {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes entrance-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes entrance-left {
+    0% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes entrance-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

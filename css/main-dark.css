@@ -1,0 +1,116 @@
+body.dark {
+    color: white;
+}
+
+body.dark a {
+    color: white;
+}
+
+
+body.dark #header h1 {
+    font-weight: 100;
+}
+
+body.dark #header h2 {
+    font-weight: 300;
+}
+
+body.dark #container {
+    background: #383000;
+}
+
+body.dark.centered-content .background-left {
+    background: #101010;
+}
+
+body.dark.centered-content .background-right {
+    background: #383000;
+}
+
+body.dark .side-item {
+    background: #101010;
+}
+
+body.dark #side-shadow {
+    background: #222;
+}
+
+body.dark #header #header-logo {
+    background: darkgoldenrod;
+}
+
+body.dark .menu-item-selected {
+    color: goldenrod !important;
+    border-right-color: goldenrod;
+}
+
+body.dark .menu-item-selected .menu-item-progress-slow, body.dark .menu-item-active .menu-item-progress-slow,
+body.dark .menu-item-selected .menu-item-progress-fast, body.dark .menu-item-active .menu-item-progress-fast {
+    background: goldenrod;
+    width: 2px;
+    left: auto;
+    right: -5px;
+    animation: menu-item-progress-blink-dark 2s infinite, menu-item-progress-move 5s ease-in-out;
+}
+
+body.dark .menu-item-selected .menu-item-progress-fast {
+    animation-duration: 0s, .8s;
+}
+
+body.dark .menu-item-active .menu-item-progress-fast {
+    display: none;
+}
+
+body.dark .menu-item {
+    border-right-width: 5px;
+}
+
+body.dark .menu-item-active {
+    animation: menu-item-border-blink-dark 2s infinite;
+}
+
+@keyframes menu-item-progress-blink-dark {
+    0%   {
+        background: darkgoldenrod;
+    }
+    25%  {
+        background: darkorchid;
+    }
+    50%  {
+        background: darkred;
+    }
+    75%  {
+        background: darkslateblue;
+    }
+    100%  {
+        background: darkgoldenrod;
+    }
+}
+
+@keyframes menu-item-border-blink-dark {
+    0%   {
+        border-right-color: darkgoldenrod;
+    }
+    25%  {
+        border-right-color: darkorchid;
+    }
+    50%  {
+        border-right-color: darkred;
+    }
+    75%  {
+        border-right-color: darkslateblue;
+    }
+    100%  {
+        border-right-color: darkslateblue;
+    }
+}
+
+
+body.dark .switch-theme-button-dark {
+    display: none;
+}
+
+body.dark .switch-theme-button-light {
+    display: block;
+}
+
